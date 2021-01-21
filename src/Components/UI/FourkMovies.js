@@ -4,14 +4,18 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 
 const FourkMovies = (props) => {
+  let properties = props.properties.filter(
+    (property) => property.thumbnail != null && property.thumbnail
+  );
+  console.log(`hey`, properties);
   return (
     <MovieWrapper>
       <MoviesTitle>
         <h2>LATEST HOMES</h2>
-        <BTNgreen>SEARCH</BTNgreen>
+        {/* <BTNgreen>SEARCH</BTNgreen> */}
       </MoviesTitle>
       <MovieUl>
-        {props.properties.slice(0, 4).map((property) => (
+        {properties.slice(0, 4).map((property) => (
           <MovieLi>
             <Link to={`/product/${property.property_id}`}>
               {" "}

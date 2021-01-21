@@ -31,7 +31,7 @@ const Header = () => {
         photos about selected properties then explore related products
       </HeaderH1>
       <BTNgroup>
-        <BTNwhite to="/search/1">TRY FOR FREE</BTNwhite>
+        <BTNwhite to="/search/1">View Listings</BTNwhite>
         <WHITEbg></WHITEbg>
       </BTNgroup>
     </HeadWrapper>

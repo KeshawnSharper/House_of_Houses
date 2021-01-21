@@ -149,10 +149,11 @@ export const B = styled.b`
   font-size: 25px;
   letter-spacing: 2px;
   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px green;
 `;
 
 export const HeadWrapper = styled.header`
-  background-image: url("https://res.cloudinary.com/di449masi/image/upload/v1599535598/stephen-leonardi-Al9Cl-b7EFU-unsplash_aevnlm.jpg");
+  background-image: url("https://res.cloudinary.com/di449masi/image/upload/v1611200375/590_huan3m.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -160,6 +161,7 @@ export const HeadWrapper = styled.header`
   min-height: 900px;
   padding: 0 5%;
   position: relative;
+  /* opacity: 0.6; */
 `;
 
 export const Logo = styled.p`
@@ -183,6 +185,7 @@ export const Navlink = styled(NavLink)`
   font-size: 15px;
   letter-spacing: 2px;
   color: white;
+  cursor: pointer;
 `;
 
 export const Navigation = styled.p`
@@ -200,6 +203,10 @@ export const HeaderH1 = styled.h1`
   color: white;
   width: 100%;
   margin: 70px 0 40px 0;
+  text-decoration: bold;
+  opacity: 5;
+  z-index: 5;
+  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;
 `;
 export const HeaderP = styled.p`
   color: white;
