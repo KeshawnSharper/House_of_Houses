@@ -25,7 +25,7 @@ const FourkMovies = (props) => {
         ))}
       </MovieUl>
       <MovieUl>
-        {props.properties.slice(5, 4 + 5).map((property) => (
+        {properties.slice(5, 4 + 5).map((property) => (
           <MovieLi>
             <Link to={`/product/${property.property_id}`}>
               {" "}
