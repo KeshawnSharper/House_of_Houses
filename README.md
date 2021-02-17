@@ -18,5 +18,5 @@ ReactJS/JavaScript/Html/CSS
 No bugs 
 
 # How to use it:
-First, clone the repo into your terminal and forward to the House_of_Houses directory. Lastly,install yarn and run yarn start. 
+Either clone the repo into your terminal and forward to the House_of_Houses directory and install yarn and run yarn start or click this link https://houseofhouses2021.netlify.app/
 
