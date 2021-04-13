@@ -1,6 +1,6 @@
 <img src="https://res.cloudinary.com/di449masi/image/upload/v1606246840/HouseofHouses_ityj1j.png"></img>
 
-# House_of_Houses
+# House_of_House
 
 # Description : 
 A Real Estate application built with ReactJS and Realtor API.
